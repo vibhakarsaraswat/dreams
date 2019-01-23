@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that Intro images and Text are shown (and shown in correct order).</description>
+   <name>TCS_LauncherActivity_Screen02_DreamsHelpYou_TextAndImageVerification</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>abeefbdf-24a1-47ef-b8f6-4a43a312492e</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that Intro images and Text are shown (and shown in correct order).</description>
+   <name>TCS_LauncherActivity_Screen04_SaveAloneOr_TextAndImageVerification</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>399658d9-2853-4777-82a5-84f5be65c426</testCaseGuid>
+</TestCaseEntity>

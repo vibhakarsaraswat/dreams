@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TST_LauncherActivity" time="249" tests="5" failures="0" errors="0">
+   <testsuite name="TST_LauncherActivity" tests="5" failures="0" errors="0" time="249" timestamp="2019-01-23 21:45:46" hostname="vibhakarsaraswat - 192.168.1.185" id="Test Suites/TST_LauncherActivity">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 9)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/vibhakarsaraswat/ws-katalon/androidprojects/getdreams/Reports/TST_LauncherActivity/20190123_214534"/>
+         <property name="logFiles" value="/Users/vibhakarsaraswat/ws-katalon/androidprojects/getdreams/Reports/TST_LauncherActivity/20190123_214534/execution0.log, /Users/vibhakarsaraswat/ws-katalon/androidprojects/getdreams/Reports/TST_LauncherActivity/20190123_214534/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="vibhakarsaraswat - 192.168.1.185"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="Android SDK built for x86"/>
+         <property name="hostAddress" value="192.168.1.185"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 9)"/>
+         <property name="deviceOSVersion" value="9"/>
+      </properties>
+      <testcase name="Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen01_DreamsLogoVerification" classname="Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen01_DreamsLogoVerification" status="PASSED">
+         <system-out><![CDATA[2019-01-23 21:45:47 - [TEST_CASE][PASSED] - Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen01_DreamsLogoVerification: Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen01_DreamsLogoVerification
+
+2019-01-23 21:45:47 - [TEST_STEP][PASSED] - startApplication("/Users/vibhakarsaraswat/Documents/devlernings/apks_and_ipas/Android-APKs/com.getdreams_2019-01-14.apk", true): Started app at: '/Users/vibhakarsaraswat/Documents/devlernings/apks_and_ipas/Android-APKs/com.getdreams_2019-01-14.apk'
+
+2019-01-23 21:45:50 - [MESSAGE][INFO] - Appium server started on port 64,555
+
+2019-01-23 21:46:13 - [MESSAGE][PASSED] - Started app at: '/Users/vibhakarsaraswat/Documents/devlernings/apks_and_ipas/Android-APKs/com.getdreams_2019-01-14.apk'
+
+2019-01-23 21:46:13 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("ORF_LauncherActivity/ORF_LauncherActivity_Screen01_DreamsLogo/android.widget.ImageView0"), 15): Element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen01_DreamsLogo/android.widget.ImageView0' is exist
+
+2019-01-23 21:46:19 - [MESSAGE][PASSED] - Element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen01_DreamsLogo/android.widget.ImageView0' is exist
+
+2019-01-23 21:46:19 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2019-01-23 21:46:22 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen02_DreamsHelpYou_TextAndImageVerification" classname="Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen02_DreamsHelpYou_TextAndImageVerification" status="PASSED">
+         <system-out><![CDATA[2019-01-23 21:46:22 - [TEST_CASE][PASSED] - Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen02_DreamsHelpYou_TextAndImageVerification: Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen02_DreamsHelpYou_TextAndImageVerification
+
+2019-01-23 21:46:23 - [TEST_STEP][PASSED] - startApplication("/Users/vibhakarsaraswat/Documents/devlernings/apks_and_ipas/Android-APKs/com.getdreams_2019-01-14.apk", true): Started app at: '/Users/vibhakarsaraswat/Documents/devlernings/apks_and_ipas/Android-APKs/com.getdreams_2019-01-14.apk'
+
+2019-01-23 21:46:25 - [MESSAGE][INFO] - Appium server started on port 64,803
+
+2019-01-23 21:46:49 - [MESSAGE][PASSED] - Started app at: '/Users/vibhakarsaraswat/Documents/devlernings/apks_and_ipas/Android-APKs/com.getdreams_2019-01-14.apk'
+
+2019-01-23 21:46:49 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2019-01-23 21:47:04 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-01-23 21:47:04 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.TextView0 - Dreams help you save money to reach your dreams"), "Dreams help you save money to reach your dreams", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.TextView0 - Dreams help you save money to reach your dreams' are matched.
+
+2019-01-23 21:47:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.TextView0 - Dreams help you save money to reach your dreams' are matched.
+
+2019-01-23 21:47:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.ImageView0"), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.ImageView0' is visible
+
+2019-01-23 21:47:04 - [MESSAGE][PASSED] - Element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.ImageView0' is visible
+
+2019-01-23 21:47:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.ImageView1"), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.ImageView1' is visible
+
+2019-01-23 21:47:04 - [MESSAGE][PASSED] - Element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.ImageView1' is visible
+
+2019-01-23 21:47:04 - [TEST_STEP][PASSED] - tap(findTestObject("ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.Button0 - NEXT"), 0): Tapped on element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.Button0 - NEXT'
+
+2019-01-23 21:47:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-23 21:47:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.Button0 - NEXT'
+
+2019-01-23 21:47:06 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.TextView0 - The app makes saving fun easy and efficient"), "The app makes saving fun, easy and efficient", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.TextView0 - The app makes saving fun easy and efficient' are matched.
+
+2019-01-23 21:47:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.TextView0 - The app makes saving fun easy and efficient' are matched.
+
+2019-01-23 21:47:06 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2019-01-23 21:47:08 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen03_TheAppMake_TextAndImageVerification" classname="Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen03_TheAppMake_TextAndImageVerification" status="PASSED">
+         <system-out><![CDATA[2019-01-23 21:47:08 - [TEST_CASE][PASSED] - Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen03_TheAppMake_TextAndImageVerification: Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen03_TheAppMake_TextAndImageVerification
+
+2019-01-23 21:47:09 - [TEST_STEP][PASSED] - startApplication("/Users/vibhakarsaraswat/Documents/devlernings/apks_and_ipas/Android-APKs/com.getdreams_2019-01-14.apk", true): Started app at: '/Users/vibhakarsaraswat/Documents/devlernings/apks_and_ipas/Android-APKs/com.getdreams_2019-01-14.apk'
+
+2019-01-23 21:47:12 - [MESSAGE][INFO] - Appium server started on port 65,062
+
+2019-01-23 21:47:33 - [MESSAGE][PASSED] - Started app at: '/Users/vibhakarsaraswat/Documents/devlernings/apks_and_ipas/Android-APKs/com.getdreams_2019-01-14.apk'
+
+2019-01-23 21:47:33 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2019-01-23 21:47:48 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-01-23 21:47:48 - [TEST_STEP][PASSED] - tap(findTestObject("ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.Button0 - NEXT"), 10): Tapped on element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.Button0 - NEXT'
+
+2019-01-23 21:47:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.Button0 - NEXT'
+
+2019-01-23 21:47:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.TextView0 - The app makes saving fun easy and efficient"), "The app makes saving fun, easy and efficient", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.TextView0 - The app makes saving fun easy and efficient' are matched.
+
+2019-01-23 21:47:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.TextView0 - The app makes saving fun easy and efficient' are matched.
+
+2019-01-23 21:47:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView0"), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView0' is visible
+
+2019-01-23 21:47:51 - [MESSAGE][PASSED] - Element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView0' is visible
+
+2019-01-23 21:47:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView1"), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView1' is visible
+
+2019-01-23 21:47:51 - [MESSAGE][PASSED] - Element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView1' is visible
+
+2019-01-23 21:47:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView2"), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView2' is visible
+
+2019-01-23 21:47:51 - [MESSAGE][PASSED] - Element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView2' is visible
+
+2019-01-23 21:47:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView3"), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView3' is visible
+
+2019-01-23 21:47:51 - [MESSAGE][PASSED] - Element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView3' is visible
+
+2019-01-23 21:47:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView4"), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView4' is visible
+
+2019-01-23 21:47:52 - [MESSAGE][PASSED] - Element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView4' is visible
+
+2019-01-23 21:47:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView5"), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView5' is visible
+
+2019-01-23 21:47:52 - [MESSAGE][PASSED] - Element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView5' is visible
+
+2019-01-23 21:47:52 - [TEST_STEP][PASSED] - tap(findTestObject("ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.Button0 - NEXT"), 10): Tapped on element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.Button0 - NEXT'
+
+2019-01-23 21:47:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.Button0 - NEXT'
+
+2019-01-23 21:47:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.TextView0 - Save alone or with friends for group dreams"), "Save alone or with friends for group dreams"): Actual text and expected text of test object 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.TextView0 - Save alone or with friends for group dreams' are matched.
+
+2019-01-23 21:47:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.TextView0 - Save alone or with friends for group dreams' are matched.
+
+2019-01-23 21:47:54 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2019-01-23 21:47:56 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen04_SaveAloneOr_TextAndImageVerification" classname="Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen04_SaveAloneOr_TextAndImageVerification" status="PASSED">
+         <system-out><![CDATA[2019-01-23 21:47:56 - [TEST_CASE][PASSED] - Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen04_SaveAloneOr_TextAndImageVerification: Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen04_SaveAloneOr_TextAndImageVerification
+
+2019-01-23 21:47:56 - [TEST_STEP][PASSED] - startApplication("/Users/vibhakarsaraswat/Documents/devlernings/apks_and_ipas/Android-APKs/com.getdreams_2019-01-14.apk", true): Started app at: '/Users/vibhakarsaraswat/Documents/devlernings/apks_and_ipas/Android-APKs/com.getdreams_2019-01-14.apk'
+
+2019-01-23 21:47:58 - [MESSAGE][INFO] - Appium server started on port 65,370
+
+2019-01-23 21:48:20 - [MESSAGE][PASSED] - Started app at: '/Users/vibhakarsaraswat/Documents/devlernings/apks_and_ipas/Android-APKs/com.getdreams_2019-01-14.apk'
+
+2019-01-23 21:48:20 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2019-01-23 21:48:35 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-01-23 21:48:35 - [TEST_STEP][PASSED] - tap(findTestObject("ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.Button0 - NEXT"), 10): Tapped on element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.Button0 - NEXT'
+
+2019-01-23 21:48:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.Button0 - NEXT'
+
+2019-01-23 21:48:37 - [TEST_STEP][PASSED] - tap(findTestObject("ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.Button0 - NEXT"), 10): Tapped on element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.Button0 - NEXT'
+
+2019-01-23 21:48:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.Button0 - NEXT'
+
+2019-01-23 21:48:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.TextView0 - Save alone or with friends for group dreams"), "Save alone or with friends for group dreams"): Actual text and expected text of test object 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.TextView0 - Save alone or with friends for group dreams' are matched.
+
+2019-01-23 21:48:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.TextView0 - Save alone or with friends for group dreams' are matched.
+
+2019-01-23 21:48:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView0"), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView0' is visible
+
+2019-01-23 21:48:39 - [MESSAGE][PASSED] - Element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView0' is visible
+
+2019-01-23 21:48:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView1"), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView1' is visible
+
+2019-01-23 21:48:40 - [MESSAGE][PASSED] - Element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView1' is visible
+
+2019-01-23 21:48:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView2"), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView2' is visible
+
+2019-01-23 21:48:40 - [MESSAGE][PASSED] - Element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView2' is visible
+
+2019-01-23 21:48:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView3"), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView3' is visible
+
+2019-01-23 21:48:41 - [MESSAGE][PASSED] - Element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView3' is visible
+
+2019-01-23 21:48:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView4"), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView4' is visible
+
+2019-01-23 21:48:41 - [MESSAGE][PASSED] - Element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView4' is visible
+
+2019-01-23 21:48:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView6"), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView6' is visible
+
+2019-01-23 21:48:41 - [MESSAGE][PASSED] - Element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView6' is visible
+
+2019-01-23 21:48:41 - [TEST_STEP][PASSED] - tap(findTestObject("ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.Button0 - NEXT"), 10): Tapped on element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.Button0 - NEXT'
+
+2019-01-23 21:48:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.Button0 - NEXT'
+
+2019-01-23 21:48:45 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ORF_WelcomeScreen/android.widget.TextView0 - Save money for your dreams."), "Save money for your dreams."): Actual text and expected text of test object 'Object Repository/ORF_WelcomeScreen/android.widget.TextView0 - Save money for your dreams.' are matched.
+
+2019-01-23 21:48:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ORF_WelcomeScreen/android.widget.TextView0 - Save money for your dreams.' are matched.
+
+2019-01-23 21:48:48 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2019-01-23 21:48:51 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen05_SplashToWelcomeScreenTransitionVerification" classname="Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen05_SplashToWelcomeScreenTransitionVerification" status="PASSED">
+         <system-out><![CDATA[2019-01-23 21:48:51 - [TEST_CASE][PASSED] - Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen05_SplashToWelcomeScreenTransitionVerification: Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen05_SplashToWelcomeScreenTransitionVerification
+
+2019-01-23 21:48:51 - [TEST_STEP][PASSED] - startApplication("/Users/vibhakarsaraswat/Documents/devlernings/apks_and_ipas/Android-APKs/com.getdreams_2019-01-14.apk", true): Started app at: '/Users/vibhakarsaraswat/Documents/devlernings/apks_and_ipas/Android-APKs/com.getdreams_2019-01-14.apk'
+
+2019-01-23 21:48:53 - [MESSAGE][INFO] - Appium server started on port 49,356
+
+2019-01-23 21:49:20 - [MESSAGE][PASSED] - Started app at: '/Users/vibhakarsaraswat/Documents/devlernings/apks_and_ipas/Android-APKs/com.getdreams_2019-01-14.apk'
+
+2019-01-23 21:49:20 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2019-01-23 21:49:35 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-01-23 21:49:35 - [TEST_STEP][PASSED] - tap(findTestObject("ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.Button0 - NEXT"), 5): Tapped on element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.Button0 - NEXT'
+
+2019-01-23 21:49:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.Button0 - NEXT'
+
+2019-01-23 21:49:36 - [TEST_STEP][PASSED] - tap(findTestObject("ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.Button0 - NEXT"), 5): Tapped on element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.Button0 - NEXT'
+
+2019-01-23 21:49:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.Button0 - NEXT'
+
+2019-01-23 21:49:38 - [TEST_STEP][PASSED] - tap(findTestObject("ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.Button0 - NEXT"), 5): Tapped on element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.Button0 - NEXT'
+
+2019-01-23 21:49:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.Button0 - NEXT'
+
+2019-01-23 21:49:42 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-01-23 21:49:52 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-01-23 21:49:52 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("ORF_WelcomeScreen/android.widget.Button0 - LOGIN"), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/ORF_WelcomeScreen/android.widget.Button0 - LOGIN' is exist
+
+2019-01-23 21:49:52 - [MESSAGE][PASSED] - Element 'Object Repository/ORF_WelcomeScreen/android.widget.Button0 - LOGIN' is exist
+
+2019-01-23 21:49:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("ORF_WelcomeScreen/android.widget.Button1 - BECOME A USER"), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/ORF_WelcomeScreen/android.widget.Button1 - BECOME A USER' is visible
+
+2019-01-23 21:49:52 - [MESSAGE][PASSED] - Element 'Object Repository/ORF_WelcomeScreen/android.widget.Button1 - BECOME A USER' is visible
+
+2019-01-23 21:49:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ORF_WelcomeScreen/android.widget.TextView0 - Save money for your dreams."), "Save money for your dreams.", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/ORF_WelcomeScreen/android.widget.TextView0 - Save money for your dreams.' are matched.
+
+2019-01-23 21:49:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ORF_WelcomeScreen/android.widget.TextView0 - Save money for your dreams.' are matched.
+
+2019-01-23 21:49:53 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2019-01-23 21:49:56 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-23 21:45:46 - [TEST_SUITE][PASSED] - TST_LauncherActivity: Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen05_SplashToWelcomeScreenTransitionVerification]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

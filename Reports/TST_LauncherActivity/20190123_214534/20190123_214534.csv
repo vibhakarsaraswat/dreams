@@ -1,0 +1,60 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TST_LauncherActivity,,his Test Suites is aimed to execute all the test cases that verfies the Order/Features/Contents of the LauncherActivity.,2019-01-23 21:45:46,2019-01-23 21:49:56,4m - 9.146s,PASSED
+,,,,,,
+Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen01_DreamsLogoVerification,,Verify that Spash image (Dream Icon) shown at app launch.,2019-01-23 21:45:47,2019-01-23 21:46:22,35.604s,PASSED
+"startApplication(""/Users/vibhakarsaraswat/Documents/devlernings/apks_and_ipas/Android-APKs/com.getdreams_2019-01-14.apk"", true)",,,2019-01-23 21:45:47,2019-01-23 21:46:13,26.271s,PASSED
+"verifyElementExist(findTestObject(""ORF_LauncherActivity/ORF_LauncherActivity_Screen01_DreamsLogo/android.widget.ImageView0""), 15)",,,2019-01-23 21:46:13,2019-01-23 21:46:19,6.041s,PASSED
+closeApplication(),,,2019-01-23 21:46:19,2019-01-23 21:46:22,2.852s,PASSED
+,,,,,,
+Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen02_DreamsHelpYou_TextAndImageVerification,,Verify that Intro images and Text are shown (and shown in correct order).,2019-01-23 21:46:22,2019-01-23 21:47:08,45.939s,PASSED
+"startApplication(""/Users/vibhakarsaraswat/Documents/devlernings/apks_and_ipas/Android-APKs/com.getdreams_2019-01-14.apk"", true)",,,2019-01-23 21:46:23,2019-01-23 21:46:49,25.938s,PASSED
+delay(15),,,2019-01-23 21:46:49,2019-01-23 21:47:04,15.073s,PASSED
+"verifyElementText(findTestObject(""ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.TextView0 - Dreams help you save money to reach your dreams""), ""Dreams help you save money to reach your dreams"", CONTINUE_ON_FAILURE)",,,2019-01-23 21:47:04,2019-01-23 21:47:04,0.255s,PASSED
+"verifyElementVisible(findTestObject(""ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.ImageView0""), 5, CONTINUE_ON_FAILURE)",,,2019-01-23 21:47:04,2019-01-23 21:47:04,0.204s,PASSED
+"verifyElementVisible(findTestObject(""ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.ImageView1""), 5, CONTINUE_ON_FAILURE)",,,2019-01-23 21:47:04,2019-01-23 21:47:04,0.220s,PASSED
+"tap(findTestObject(""ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.Button0 - NEXT""), 0)",,,2019-01-23 21:47:04,2019-01-23 21:47:06,1.635s,PASSED
+"verifyElementText(findTestObject(""ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.TextView0 - The app makes saving fun easy and efficient""), ""The app makes saving fun, easy and efficient"", CONTINUE_ON_FAILURE)",,,2019-01-23 21:47:06,2019-01-23 21:47:06,0.304s,PASSED
+closeApplication(),,,2019-01-23 21:47:06,2019-01-23 21:47:08,1.901s,PASSED
+,,,,,,
+Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen03_TheAppMake_TextAndImageVerification,,Verify that Intro images and Text are shown (and shown in correct order).,2019-01-23 21:47:08,2019-01-23 21:47:56,47.525s,PASSED
+"startApplication(""/Users/vibhakarsaraswat/Documents/devlernings/apks_and_ipas/Android-APKs/com.getdreams_2019-01-14.apk"", true)",,,2019-01-23 21:47:09,2019-01-23 21:47:33,24.669s,PASSED
+delay(15),,,2019-01-23 21:47:33,2019-01-23 21:47:48,15.007s,PASSED
+"tap(findTestObject(""ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.Button0 - NEXT""), 10)",,,2019-01-23 21:47:48,2019-01-23 21:47:50,1.582s,PASSED
+"verifyElementText(findTestObject(""ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.TextView0 - The app makes saving fun easy and efficient""), ""The app makes saving fun, easy and efficient"", CONTINUE_ON_FAILURE)",,,2019-01-23 21:47:50,2019-01-23 21:47:50,0.323s,PASSED
+"verifyElementVisible(findTestObject(""ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView0""), 5, CONTINUE_ON_FAILURE)",,,2019-01-23 21:47:50,2019-01-23 21:47:51,0.216s,PASSED
+"verifyElementVisible(findTestObject(""ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView1""), 5, CONTINUE_ON_FAILURE)",,,2019-01-23 21:47:51,2019-01-23 21:47:51,0.196s,PASSED
+"verifyElementVisible(findTestObject(""ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView2""), 5, CONTINUE_ON_FAILURE)",,,2019-01-23 21:47:51,2019-01-23 21:47:51,0.253s,PASSED
+"verifyElementVisible(findTestObject(""ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView3""), 5, CONTINUE_ON_FAILURE)",,,2019-01-23 21:47:51,2019-01-23 21:47:51,0.281s,PASSED
+"verifyElementVisible(findTestObject(""ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView4""), 5, CONTINUE_ON_FAILURE)",,,2019-01-23 21:47:51,2019-01-23 21:47:52,0.341s,PASSED
+"verifyElementVisible(findTestObject(""ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView5""), 5, CONTINUE_ON_FAILURE)",,,2019-01-23 21:47:52,2019-01-23 21:47:52,0.243s,PASSED
+"tap(findTestObject(""ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.Button0 - NEXT""), 10)",,,2019-01-23 21:47:52,2019-01-23 21:47:53,1.606s,PASSED
+"verifyElementText(findTestObject(""ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.TextView0 - Save alone or with friends for group dreams""), ""Save alone or with friends for group dreams"")",,,2019-01-23 21:47:53,2019-01-23 21:47:54,0.231s,PASSED
+closeApplication(),,,2019-01-23 21:47:54,2019-01-23 21:47:56,2.113s,PASSED
+,,,,,,
+Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen04_SaveAloneOr_TextAndImageVerification,,Verify that Intro images and Text are shown (and shown in correct order).,2019-01-23 21:47:56,2019-01-23 21:48:51,55.142s,PASSED
+"startApplication(""/Users/vibhakarsaraswat/Documents/devlernings/apks_and_ipas/Android-APKs/com.getdreams_2019-01-14.apk"", true)",,,2019-01-23 21:47:56,2019-01-23 21:48:20,24.049s,PASSED
+delay(15),,,2019-01-23 21:48:20,2019-01-23 21:48:35,15.004s,PASSED
+"tap(findTestObject(""ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.Button0 - NEXT""), 10)",,,2019-01-23 21:48:35,2019-01-23 21:48:37,1.573s,PASSED
+"tap(findTestObject(""ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.Button0 - NEXT""), 10)",,,2019-01-23 21:48:37,2019-01-23 21:48:38,1.681s,PASSED
+"verifyElementText(findTestObject(""ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.TextView0 - Save alone or with friends for group dreams""), ""Save alone or with friends for group dreams"")",,,2019-01-23 21:48:38,2019-01-23 21:48:39,0.532s,PASSED
+"verifyElementVisible(findTestObject(""ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView0""), 5, CONTINUE_ON_FAILURE)",,,2019-01-23 21:48:39,2019-01-23 21:48:39,0.403s,PASSED
+"verifyElementVisible(findTestObject(""ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView1""), 5, CONTINUE_ON_FAILURE)",,,2019-01-23 21:48:39,2019-01-23 21:48:40,0.444s,PASSED
+"verifyElementVisible(findTestObject(""ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView2""), 5, CONTINUE_ON_FAILURE)",,,2019-01-23 21:48:40,2019-01-23 21:48:40,0.360s,PASSED
+"verifyElementVisible(findTestObject(""ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView3""), 5, CONTINUE_ON_FAILURE)",,,2019-01-23 21:48:40,2019-01-23 21:48:41,0.410s,PASSED
+"verifyElementVisible(findTestObject(""ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView4""), 5, CONTINUE_ON_FAILURE)",,,2019-01-23 21:48:41,2019-01-23 21:48:41,0.325s,PASSED
+"verifyElementVisible(findTestObject(""ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView6""), 5, CONTINUE_ON_FAILURE)",,,2019-01-23 21:48:41,2019-01-23 21:48:41,0.409s,PASSED
+"tap(findTestObject(""ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.Button0 - NEXT""), 10)",,,2019-01-23 21:48:41,2019-01-23 21:48:45,3.632s,PASSED
+"verifyElementText(findTestObject(""ORF_WelcomeScreen/android.widget.TextView0 - Save money for your dreams.""), ""Save money for your dreams."")",,,2019-01-23 21:48:45,2019-01-23 21:48:48,3.459s,PASSED
+closeApplication(),,,2019-01-23 21:48:48,2019-01-23 21:48:51,2.543s,PASSED
+,,,,,,
+Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen05_SplashToWelcomeScreenTransitionVerification,,Verify that Intro images and Text are shown (and shown in correct order).,2019-01-23 21:48:51,2019-01-23 21:49:56,1m - 4.560s,PASSED
+"startApplication(""/Users/vibhakarsaraswat/Documents/devlernings/apks_and_ipas/Android-APKs/com.getdreams_2019-01-14.apk"", true)",,,2019-01-23 21:48:51,2019-01-23 21:49:20,28.421s,PASSED
+delay(15),,,2019-01-23 21:49:20,2019-01-23 21:49:35,15.009s,PASSED
+"tap(findTestObject(""ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.Button0 - NEXT""), 5)",,,2019-01-23 21:49:35,2019-01-23 21:49:36,1.515s,PASSED
+"tap(findTestObject(""ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.Button0 - NEXT""), 5)",,,2019-01-23 21:49:36,2019-01-23 21:49:38,1.704s,PASSED
+"tap(findTestObject(""ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.Button0 - NEXT""), 5)",,,2019-01-23 21:49:38,2019-01-23 21:49:42,4.039s,PASSED
+delay(10),,,2019-01-23 21:49:42,2019-01-23 21:49:52,10.002s,PASSED
+"verifyElementExist(findTestObject(""ORF_WelcomeScreen/android.widget.Button0 - LOGIN""), 5, CONTINUE_ON_FAILURE)",,,2019-01-23 21:49:52,2019-01-23 21:49:52,0.222s,PASSED
+"verifyElementVisible(findTestObject(""ORF_WelcomeScreen/android.widget.Button1 - BECOME A USER""), 5, CONTINUE_ON_FAILURE)",,,2019-01-23 21:49:52,2019-01-23 21:49:52,0.281s,PASSED
+"verifyElementText(findTestObject(""ORF_WelcomeScreen/android.widget.TextView0 - Save money for your dreams.""), ""Save money for your dreams."", CONTINUE_ON_FAILURE)",,,2019-01-23 21:49:52,2019-01-23 21:49:53,0.269s,PASSED
+closeApplication(),,,2019-01-23 21:49:53,2019-01-23 21:49:56,2.915s,PASSED

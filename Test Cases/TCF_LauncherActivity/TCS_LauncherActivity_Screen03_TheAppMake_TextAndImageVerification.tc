@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that Intro images and Text are shown (and shown in correct order).</description>
+   <name>TCS_LauncherActivity_Screen03_TheAppMake_TextAndImageVerification</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e3629fd3-a57e-463a-a440-42d4a12801cf</testCaseGuid>
+</TestCaseEntity>

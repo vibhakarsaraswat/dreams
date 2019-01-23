@@ -1,0 +1,2433 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-01-23T21:45:46</date>
+  <millis>1548276346869</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/TST_LauncherActivity</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">TST_LauncherActivity</property>
+  <property name="description">his Test Suites is aimed to execute all the test cases that verfies the Order/Features/Contents of the LauncherActivity.</property>
+  <property name="id">Test Suites/TST_LauncherActivity</property>
+</record>
+<record>
+  <date>2019-01-23T21:45:46</date>
+  <millis>1548276346892</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = vibhakarsaraswat - 192.168.1.185</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">vibhakarsaraswat - 192.168.1.185</property>
+</record>
+<record>
+  <date>2019-01-23T21:45:46</date>
+  <millis>1548276346893</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Mac OS X 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Mac OS X 64bit</property>
+</record>
+<record>
+  <date>2019-01-23T21:45:46</date>
+  <millis>1548276346894</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.1.185</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.1.185</property>
+</record>
+<record>
+  <date>2019-01-23T21:45:46</date>
+  <millis>1548276346895</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 5.10.1.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.10.1.1</property>
+</record>
+<record>
+  <date>2019-01-23T21:45:47</date>
+  <millis>1548276347216</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen01_DreamsLogoVerification</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen01_DreamsLogoVerification</property>
+  <property name="description">Verify that Spash image (Dream Icon) shown at app launch.</property>
+  <property name="id">Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen01_DreamsLogoVerification</property>
+  <property name="source">\\Users\\vibhakarsaraswat\\ws-katalon\\androidprojects\\getdreams\\Test Cases\\TCF_LauncherActivity\\TCS_LauncherActivity_Screen01_DreamsLogoVerification.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-01-23T21:45:47</date>
+  <millis>1548276347651</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : startApplication(\&amp;quot;/Users/vibhakarsaraswat/Documents/devlernings/apks_and_ipas/Android-APKs/com.getdreams_2019-01-14.apk\&amp;quot;, true)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-01-23T21:45:50</date>
+  <millis>1548276350481</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Appium server started on port 64,555</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:46:13</date>
+  <millis>1548276373859</millis>
+  <sequence>11</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>appiumVersion = 1.8.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="appiumVersion">1.8.1</property>
+</record>
+<record>
+  <date>2019-01-23T21:46:13</date>
+  <millis>1548276373906</millis>
+  <sequence>12</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceId = emulator-5554</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceId">emulator-5554</property>
+</record>
+<record>
+  <date>2019-01-23T21:46:13</date>
+  <millis>1548276373907</millis>
+  <sequence>13</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceName = emulator-5554 (Android SDK built for x86 - Android 9)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceName">emulator-5554 (Android SDK built for x86 - Android 9)</property>
+</record>
+<record>
+  <date>2019-01-23T21:46:13</date>
+  <millis>1548276373908</millis>
+  <sequence>14</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceModel = Android SDK built for x86</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceModel">Android SDK built for x86</property>
+</record>
+<record>
+  <date>2019-01-23T21:46:13</date>
+  <millis>1548276373909</millis>
+  <sequence>15</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceManufacturer = Google</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceManufacturer">Google</property>
+</record>
+<record>
+  <date>2019-01-23T21:46:13</date>
+  <millis>1548276373910</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2019-01-23T21:46:13</date>
+  <millis>1548276373911</millis>
+  <sequence>17</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceOSVersion = 9</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceOSVersion">9</property>
+</record>
+<record>
+  <date>2019-01-23T21:46:13</date>
+  <millis>1548276373919</millis>
+  <sequence>18</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Started app at: &amp;apos;/Users/vibhakarsaraswat/Documents/devlernings/apks_and_ipas/Android-APKs/com.getdreams_2019-01-14.apk&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:46:13</date>
+  <millis>1548276373922</millis>
+  <sequence>19</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : startApplication(\&amp;quot;/Users/vibhakarsaraswat/Documents/devlernings/apks_and_ipas/Android-APKs/com.getdreams_2019-01-14.apk\&amp;quot;, true)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:46:13</date>
+  <millis>1548276373923</millis>
+  <sequence>20</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementExist(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen01_DreamsLogo/android.widget.ImageView0\&amp;quot;), 15)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-01-23T21:46:19</date>
+  <millis>1548276379963</millis>
+  <sequence>24</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen01_DreamsLogo/android.widget.ImageView0&amp;apos; is exist</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:46:19</date>
+  <millis>1548276379964</millis>
+  <sequence>25</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementExist(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen01_DreamsLogo/android.widget.ImageView0\&amp;quot;), 15)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:46:19</date>
+  <millis>1548276379967</millis>
+  <sequence>26</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeApplication()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-01-23T21:46:22</date>
+  <millis>1548276382818</millis>
+  <sequence>27</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Close app successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:46:22</date>
+  <millis>1548276382819</millis>
+  <sequence>28</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeApplication()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:46:22</date>
+  <millis>1548276382820</millis>
+  <sequence>29</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen01_DreamsLogoVerification</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:46:22</date>
+  <millis>1548276382820</millis>
+  <sequence>30</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen01_DreamsLogoVerification</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:46:22</date>
+  <millis>1548276382829</millis>
+  <sequence>31</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen02_DreamsHelpYou_TextAndImageVerification</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen02_DreamsHelpYou_TextAndImageVerification</property>
+  <property name="description">Verify that Intro images and Text are shown (and shown in correct order).</property>
+  <property name="id">Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen02_DreamsHelpYou_TextAndImageVerification</property>
+  <property name="source">\\Users\\vibhakarsaraswat\\ws-katalon\\androidprojects\\getdreams\\Test Cases\\TCF_LauncherActivity\\TCS_LauncherActivity_Screen02_DreamsHelpYou_TextAndImageVerification.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-01-23T21:46:23</date>
+  <millis>1548276383231</millis>
+  <sequence>33</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : startApplication(\&amp;quot;/Users/vibhakarsaraswat/Documents/devlernings/apks_and_ipas/Android-APKs/com.getdreams_2019-01-14.apk\&amp;quot;, true)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-01-23T21:46:25</date>
+  <millis>1548276385398</millis>
+  <sequence>35</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Appium server started on port 64,803</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:46:49</date>
+  <millis>1548276409113</millis>
+  <sequence>37</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>appiumVersion = 1.8.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="appiumVersion">1.8.1</property>
+</record>
+<record>
+  <date>2019-01-23T21:46:49</date>
+  <millis>1548276409149</millis>
+  <sequence>38</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceId = emulator-5554</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceId">emulator-5554</property>
+</record>
+<record>
+  <date>2019-01-23T21:46:49</date>
+  <millis>1548276409151</millis>
+  <sequence>39</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceName = emulator-5554 (Android SDK built for x86 - Android 9)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceName">emulator-5554 (Android SDK built for x86 - Android 9)</property>
+</record>
+<record>
+  <date>2019-01-23T21:46:49</date>
+  <millis>1548276409151</millis>
+  <sequence>40</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceModel = Android SDK built for x86</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceModel">Android SDK built for x86</property>
+</record>
+<record>
+  <date>2019-01-23T21:46:49</date>
+  <millis>1548276409152</millis>
+  <sequence>41</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceManufacturer = Google</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceManufacturer">Google</property>
+</record>
+<record>
+  <date>2019-01-23T21:46:49</date>
+  <millis>1548276409152</millis>
+  <sequence>42</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2019-01-23T21:46:49</date>
+  <millis>1548276409153</millis>
+  <sequence>43</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceOSVersion = 9</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceOSVersion">9</property>
+</record>
+<record>
+  <date>2019-01-23T21:46:49</date>
+  <millis>1548276409168</millis>
+  <sequence>44</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Started app at: &amp;apos;/Users/vibhakarsaraswat/Documents/devlernings/apks_and_ipas/Android-APKs/com.getdreams_2019-01-14.apk&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:46:49</date>
+  <millis>1548276409169</millis>
+  <sequence>45</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : startApplication(\&amp;quot;/Users/vibhakarsaraswat/Documents/devlernings/apks_and_ipas/Android-APKs/com.getdreams_2019-01-14.apk\&amp;quot;, true)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:46:49</date>
+  <millis>1548276409170</millis>
+  <sequence>46</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(15)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-01-23T21:47:04</date>
+  <millis>1548276424242</millis>
+  <sequence>48</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 15 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:04</date>
+  <millis>1548276424243</millis>
+  <sequence>49</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(15)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:04</date>
+  <millis>1548276424243</millis>
+  <sequence>50</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementText(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.TextView0 - Dreams help you save money to reach your dreams\&amp;quot;), \&amp;quot;Dreams help you save money to reach your dreams\&amp;quot;, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-01-23T21:47:04</date>
+  <millis>1548276424498</millis>
+  <sequence>54</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual text and expected text of test object &amp;apos;Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.TextView0 - Dreams help you save money to reach your dreams&amp;apos; are matched.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:04</date>
+  <millis>1548276424498</millis>
+  <sequence>55</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementText(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.TextView0 - Dreams help you save money to reach your dreams\&amp;quot;), \&amp;quot;Dreams help you save money to reach your dreams\&amp;quot;, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:04</date>
+  <millis>1548276424499</millis>
+  <sequence>56</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementVisible(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.ImageView0\&amp;quot;), 5, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-01-23T21:47:04</date>
+  <millis>1548276424703</millis>
+  <sequence>60</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.ImageView0&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:04</date>
+  <millis>1548276424703</millis>
+  <sequence>61</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementVisible(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.ImageView0\&amp;quot;), 5, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:04</date>
+  <millis>1548276424704</millis>
+  <sequence>62</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementVisible(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.ImageView1\&amp;quot;), 5, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-01-23T21:47:04</date>
+  <millis>1548276424924</millis>
+  <sequence>66</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.ImageView1&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:04</date>
+  <millis>1548276424924</millis>
+  <sequence>67</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementVisible(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.ImageView1\&amp;quot;), 5, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:04</date>
+  <millis>1548276424925</millis>
+  <sequence>68</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.Button0 - NEXT\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-01-23T21:47:04</date>
+  <millis>1548276424946</millis>
+  <sequence>72</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:06</date>
+  <millis>1548276426559</millis>
+  <sequence>73</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.Button0 - NEXT&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:06</date>
+  <millis>1548276426560</millis>
+  <sequence>74</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.Button0 - NEXT\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:06</date>
+  <millis>1548276426560</millis>
+  <sequence>75</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementText(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.TextView0 - The app makes saving fun easy and efficient\&amp;quot;), \&amp;quot;The app makes saving fun, easy and efficient\&amp;quot;, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">35</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-01-23T21:47:06</date>
+  <millis>1548276426863</millis>
+  <sequence>79</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual text and expected text of test object &amp;apos;Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.TextView0 - The app makes saving fun easy and efficient&amp;apos; are matched.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:06</date>
+  <millis>1548276426864</millis>
+  <sequence>80</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementText(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.TextView0 - The app makes saving fun easy and efficient\&amp;quot;), \&amp;quot;The app makes saving fun, easy and efficient\&amp;quot;, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:06</date>
+  <millis>1548276426864</millis>
+  <sequence>81</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeApplication()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-01-23T21:47:08</date>
+  <millis>1548276428765</millis>
+  <sequence>82</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Close app successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:08</date>
+  <millis>1548276428765</millis>
+  <sequence>83</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeApplication()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:08</date>
+  <millis>1548276428766</millis>
+  <sequence>84</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen02_DreamsHelpYou_TextAndImageVerification</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:08</date>
+  <millis>1548276428768</millis>
+  <sequence>85</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen02_DreamsHelpYou_TextAndImageVerification</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:08</date>
+  <millis>1548276428773</millis>
+  <sequence>86</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen03_TheAppMake_TextAndImageVerification</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen03_TheAppMake_TextAndImageVerification</property>
+  <property name="description">Verify that Intro images and Text are shown (and shown in correct order).</property>
+  <property name="id">Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen03_TheAppMake_TextAndImageVerification</property>
+  <property name="source">\\Users\\vibhakarsaraswat\\ws-katalon\\androidprojects\\getdreams\\Test Cases\\TCF_LauncherActivity\\TCS_LauncherActivity_Screen03_TheAppMake_TextAndImageVerification.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-01-23T21:47:09</date>
+  <millis>1548276429231</millis>
+  <sequence>88</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : startApplication(\&amp;quot;/Users/vibhakarsaraswat/Documents/devlernings/apks_and_ipas/Android-APKs/com.getdreams_2019-01-14.apk\&amp;quot;, true)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-01-23T21:47:12</date>
+  <millis>1548276432045</millis>
+  <sequence>90</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Appium server started on port 65,062</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:33</date>
+  <millis>1548276453859</millis>
+  <sequence>92</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>appiumVersion = 1.8.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="appiumVersion">1.8.1</property>
+</record>
+<record>
+  <date>2019-01-23T21:47:33</date>
+  <millis>1548276453889</millis>
+  <sequence>93</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceId = emulator-5554</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceId">emulator-5554</property>
+</record>
+<record>
+  <date>2019-01-23T21:47:33</date>
+  <millis>1548276453889</millis>
+  <sequence>94</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceName = emulator-5554 (Android SDK built for x86 - Android 9)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceName">emulator-5554 (Android SDK built for x86 - Android 9)</property>
+</record>
+<record>
+  <date>2019-01-23T21:47:33</date>
+  <millis>1548276453891</millis>
+  <sequence>95</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceModel = Android SDK built for x86</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceModel">Android SDK built for x86</property>
+</record>
+<record>
+  <date>2019-01-23T21:47:33</date>
+  <millis>1548276453891</millis>
+  <sequence>96</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceManufacturer = Google</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceManufacturer">Google</property>
+</record>
+<record>
+  <date>2019-01-23T21:47:33</date>
+  <millis>1548276453892</millis>
+  <sequence>97</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2019-01-23T21:47:33</date>
+  <millis>1548276453893</millis>
+  <sequence>98</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceOSVersion = 9</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceOSVersion">9</property>
+</record>
+<record>
+  <date>2019-01-23T21:47:33</date>
+  <millis>1548276453900</millis>
+  <sequence>99</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Started app at: &amp;apos;/Users/vibhakarsaraswat/Documents/devlernings/apks_and_ipas/Android-APKs/com.getdreams_2019-01-14.apk&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:33</date>
+  <millis>1548276453900</millis>
+  <sequence>100</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : startApplication(\&amp;quot;/Users/vibhakarsaraswat/Documents/devlernings/apks_and_ipas/Android-APKs/com.getdreams_2019-01-14.apk\&amp;quot;, true)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:33</date>
+  <millis>1548276453901</millis>
+  <sequence>101</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(15)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-01-23T21:47:48</date>
+  <millis>1548276468907</millis>
+  <sequence>103</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 15 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:48</date>
+  <millis>1548276468908</millis>
+  <sequence>104</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(15)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:48</date>
+  <millis>1548276468908</millis>
+  <sequence>105</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.Button0 - NEXT\&amp;quot;), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-01-23T21:47:50</date>
+  <millis>1548276470488</millis>
+  <sequence>109</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.Button0 - NEXT&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:50</date>
+  <millis>1548276470490</millis>
+  <sequence>110</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.Button0 - NEXT\&amp;quot;), 10)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:50</date>
+  <millis>1548276470490</millis>
+  <sequence>111</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementText(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.TextView0 - The app makes saving fun easy and efficient\&amp;quot;), \&amp;quot;The app makes saving fun, easy and efficient\&amp;quot;, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-01-23T21:47:50</date>
+  <millis>1548276470812</millis>
+  <sequence>115</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual text and expected text of test object &amp;apos;Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.TextView0 - The app makes saving fun easy and efficient&amp;apos; are matched.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:50</date>
+  <millis>1548276470813</millis>
+  <sequence>116</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementText(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.TextView0 - The app makes saving fun easy and efficient\&amp;quot;), \&amp;quot;The app makes saving fun, easy and efficient\&amp;quot;, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:50</date>
+  <millis>1548276470814</millis>
+  <sequence>117</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementVisible(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView0\&amp;quot;), 5, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-01-23T21:47:51</date>
+  <millis>1548276471030</millis>
+  <sequence>121</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView0&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:51</date>
+  <millis>1548276471030</millis>
+  <sequence>122</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementVisible(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView0\&amp;quot;), 5, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:51</date>
+  <millis>1548276471030</millis>
+  <sequence>123</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementVisible(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView1\&amp;quot;), 5, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-01-23T21:47:51</date>
+  <millis>1548276471225</millis>
+  <sequence>127</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView1&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:51</date>
+  <millis>1548276471226</millis>
+  <sequence>128</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementVisible(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView1\&amp;quot;), 5, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:51</date>
+  <millis>1548276471226</millis>
+  <sequence>129</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementVisible(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView2\&amp;quot;), 5, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-01-23T21:47:51</date>
+  <millis>1548276471477</millis>
+  <sequence>133</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView2&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:51</date>
+  <millis>1548276471479</millis>
+  <sequence>134</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementVisible(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView2\&amp;quot;), 5, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:51</date>
+  <millis>1548276471479</millis>
+  <sequence>135</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementVisible(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView3\&amp;quot;), 5, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-01-23T21:47:51</date>
+  <millis>1548276471760</millis>
+  <sequence>139</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView3&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:51</date>
+  <millis>1548276471760</millis>
+  <sequence>140</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementVisible(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView3\&amp;quot;), 5, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:51</date>
+  <millis>1548276471761</millis>
+  <sequence>141</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementVisible(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView4\&amp;quot;), 5, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">40</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-01-23T21:47:52</date>
+  <millis>1548276472101</millis>
+  <sequence>145</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView4&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:52</date>
+  <millis>1548276472102</millis>
+  <sequence>146</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementVisible(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView4\&amp;quot;), 5, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:52</date>
+  <millis>1548276472103</millis>
+  <sequence>147</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementVisible(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView5\&amp;quot;), 5, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">43</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2019-01-23T21:47:52</date>
+  <millis>1548276472345</millis>
+  <sequence>151</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView5&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:52</date>
+  <millis>1548276472346</millis>
+  <sequence>152</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementVisible(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.ImageView5\&amp;quot;), 5, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:52</date>
+  <millis>1548276472346</millis>
+  <sequence>153</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.Button0 - NEXT\&amp;quot;), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">47</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2019-01-23T21:47:53</date>
+  <millis>1548276473951</millis>
+  <sequence>157</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.Button0 - NEXT&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:53</date>
+  <millis>1548276473952</millis>
+  <sequence>158</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.Button0 - NEXT\&amp;quot;), 10)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:53</date>
+  <millis>1548276473952</millis>
+  <sequence>159</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementText(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.TextView0 - Save alone or with friends for group dreams\&amp;quot;), \&amp;quot;Save alone or with friends for group dreams\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">51</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2019-01-23T21:47:54</date>
+  <millis>1548276474183</millis>
+  <sequence>163</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual text and expected text of test object &amp;apos;Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.TextView0 - Save alone or with friends for group dreams&amp;apos; are matched.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:54</date>
+  <millis>1548276474183</millis>
+  <sequence>164</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementText(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.TextView0 - Save alone or with friends for group dreams\&amp;quot;), \&amp;quot;Save alone or with friends for group dreams\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:54</date>
+  <millis>1548276474184</millis>
+  <sequence>165</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeApplication()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">54</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2019-01-23T21:47:56</date>
+  <millis>1548276476297</millis>
+  <sequence>166</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Close app successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:56</date>
+  <millis>1548276476297</millis>
+  <sequence>167</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeApplication()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:56</date>
+  <millis>1548276476297</millis>
+  <sequence>168</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen03_TheAppMake_TextAndImageVerification</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:56</date>
+  <millis>1548276476298</millis>
+  <sequence>169</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen03_TheAppMake_TextAndImageVerification</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:47:56</date>
+  <millis>1548276476301</millis>
+  <sequence>170</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen04_SaveAloneOr_TextAndImageVerification</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen04_SaveAloneOr_TextAndImageVerification</property>
+  <property name="description">Verify that Intro images and Text are shown (and shown in correct order).</property>
+  <property name="id">Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen04_SaveAloneOr_TextAndImageVerification</property>
+  <property name="source">\\Users\\vibhakarsaraswat\\ws-katalon\\androidprojects\\getdreams\\Test Cases\\TCF_LauncherActivity\\TCS_LauncherActivity_Screen04_SaveAloneOr_TextAndImageVerification.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-01-23T21:47:56</date>
+  <millis>1548276476613</millis>
+  <sequence>172</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : startApplication(\&amp;quot;/Users/vibhakarsaraswat/Documents/devlernings/apks_and_ipas/Android-APKs/com.getdreams_2019-01-14.apk\&amp;quot;, true)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-01-23T21:47:58</date>
+  <millis>1548276478433</millis>
+  <sequence>174</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Appium server started on port 65,370</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:48:20</date>
+  <millis>1548276500605</millis>
+  <sequence>176</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>appiumVersion = 1.8.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="appiumVersion">1.8.1</property>
+</record>
+<record>
+  <date>2019-01-23T21:48:20</date>
+  <millis>1548276500657</millis>
+  <sequence>177</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceId = emulator-5554</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceId">emulator-5554</property>
+</record>
+<record>
+  <date>2019-01-23T21:48:20</date>
+  <millis>1548276500657</millis>
+  <sequence>178</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceName = emulator-5554 (Android SDK built for x86 - Android 9)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceName">emulator-5554 (Android SDK built for x86 - Android 9)</property>
+</record>
+<record>
+  <date>2019-01-23T21:48:20</date>
+  <millis>1548276500658</millis>
+  <sequence>179</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceModel = Android SDK built for x86</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceModel">Android SDK built for x86</property>
+</record>
+<record>
+  <date>2019-01-23T21:48:20</date>
+  <millis>1548276500658</millis>
+  <sequence>180</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceManufacturer = Google</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceManufacturer">Google</property>
+</record>
+<record>
+  <date>2019-01-23T21:48:20</date>
+  <millis>1548276500658</millis>
+  <sequence>181</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2019-01-23T21:48:20</date>
+  <millis>1548276500659</millis>
+  <sequence>182</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceOSVersion = 9</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceOSVersion">9</property>
+</record>
+<record>
+  <date>2019-01-23T21:48:20</date>
+  <millis>1548276500661</millis>
+  <sequence>183</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Started app at: &amp;apos;/Users/vibhakarsaraswat/Documents/devlernings/apks_and_ipas/Android-APKs/com.getdreams_2019-01-14.apk&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:48:20</date>
+  <millis>1548276500662</millis>
+  <sequence>184</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : startApplication(\&amp;quot;/Users/vibhakarsaraswat/Documents/devlernings/apks_and_ipas/Android-APKs/com.getdreams_2019-01-14.apk\&amp;quot;, true)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:48:20</date>
+  <millis>1548276500663</millis>
+  <sequence>185</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(15)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-01-23T21:48:35</date>
+  <millis>1548276515667</millis>
+  <sequence>187</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 15 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:48:35</date>
+  <millis>1548276515667</millis>
+  <sequence>188</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(15)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:48:35</date>
+  <millis>1548276515668</millis>
+  <sequence>189</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.Button0 - NEXT\&amp;quot;), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-01-23T21:48:37</date>
+  <millis>1548276517240</millis>
+  <sequence>193</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.Button0 - NEXT&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:48:37</date>
+  <millis>1548276517241</millis>
+  <sequence>194</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.Button0 - NEXT\&amp;quot;), 10)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:48:37</date>
+  <millis>1548276517242</millis>
+  <sequence>195</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.Button0 - NEXT\&amp;quot;), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-01-23T21:48:38</date>
+  <millis>1548276518922</millis>
+  <sequence>199</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.Button0 - NEXT&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:48:38</date>
+  <millis>1548276518923</millis>
+  <sequence>200</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.Button0 - NEXT\&amp;quot;), 10)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:48:38</date>
+  <millis>1548276518923</millis>
+  <sequence>201</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementText(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.TextView0 - Save alone or with friends for group dreams\&amp;quot;), \&amp;quot;Save alone or with friends for group dreams\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-01-23T21:48:39</date>
+  <millis>1548276519454</millis>
+  <sequence>205</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual text and expected text of test object &amp;apos;Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.TextView0 - Save alone or with friends for group dreams&amp;apos; are matched.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:48:39</date>
+  <millis>1548276519455</millis>
+  <sequence>206</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementText(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.TextView0 - Save alone or with friends for group dreams\&amp;quot;), \&amp;quot;Save alone or with friends for group dreams\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:48:39</date>
+  <millis>1548276519455</millis>
+  <sequence>207</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementVisible(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView0\&amp;quot;), 5, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-01-23T21:48:39</date>
+  <millis>1548276519857</millis>
+  <sequence>211</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView0&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:48:39</date>
+  <millis>1548276519858</millis>
+  <sequence>212</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementVisible(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView0\&amp;quot;), 5, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:48:39</date>
+  <millis>1548276519858</millis>
+  <sequence>213</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementVisible(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView1\&amp;quot;), 5, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-01-23T21:48:40</date>
+  <millis>1548276520301</millis>
+  <sequence>217</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView1&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:48:40</date>
+  <millis>1548276520302</millis>
+  <sequence>218</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementVisible(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView1\&amp;quot;), 5, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:48:40</date>
+  <millis>1548276520302</millis>
+  <sequence>219</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementVisible(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView2\&amp;quot;), 5, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-01-23T21:48:40</date>
+  <millis>1548276520662</millis>
+  <sequence>223</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView2&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:48:40</date>
+  <millis>1548276520662</millis>
+  <sequence>224</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementVisible(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView2\&amp;quot;), 5, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:48:40</date>
+  <millis>1548276520663</millis>
+  <sequence>225</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementVisible(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView3\&amp;quot;), 5, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">40</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-01-23T21:48:41</date>
+  <millis>1548276521073</millis>
+  <sequence>229</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView3&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:48:41</date>
+  <millis>1548276521073</millis>
+  <sequence>230</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementVisible(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView3\&amp;quot;), 5, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:48:41</date>
+  <millis>1548276521074</millis>
+  <sequence>231</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementVisible(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView4\&amp;quot;), 5, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">43</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2019-01-23T21:48:41</date>
+  <millis>1548276521398</millis>
+  <sequence>235</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView4&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:48:41</date>
+  <millis>1548276521399</millis>
+  <sequence>236</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementVisible(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView4\&amp;quot;), 5, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:48:41</date>
+  <millis>1548276521400</millis>
+  <sequence>237</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementVisible(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView6\&amp;quot;), 5, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">46</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2019-01-23T21:48:41</date>
+  <millis>1548276521809</millis>
+  <sequence>241</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView6&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:48:41</date>
+  <millis>1548276521809</millis>
+  <sequence>242</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementVisible(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.ImageView6\&amp;quot;), 5, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:48:41</date>
+  <millis>1548276521809</millis>
+  <sequence>243</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.Button0 - NEXT\&amp;quot;), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">49</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2019-01-23T21:48:45</date>
+  <millis>1548276525440</millis>
+  <sequence>247</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.Button0 - NEXT&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:48:45</date>
+  <millis>1548276525441</millis>
+  <sequence>248</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.Button0 - NEXT\&amp;quot;), 10)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:48:45</date>
+  <millis>1548276525441</millis>
+  <sequence>249</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementText(findTestObject(\&amp;quot;ORF_WelcomeScreen/android.widget.TextView0 - Save money for your dreams.\&amp;quot;), \&amp;quot;Save money for your dreams.\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">53</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2019-01-23T21:48:48</date>
+  <millis>1548276528899</millis>
+  <sequence>253</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual text and expected text of test object &amp;apos;Object Repository/ORF_WelcomeScreen/android.widget.TextView0 - Save money for your dreams.&amp;apos; are matched.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:48:48</date>
+  <millis>1548276528900</millis>
+  <sequence>254</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementText(findTestObject(\&amp;quot;ORF_WelcomeScreen/android.widget.TextView0 - Save money for your dreams.\&amp;quot;), \&amp;quot;Save money for your dreams.\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:48:48</date>
+  <millis>1548276528900</millis>
+  <sequence>255</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeApplication()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">56</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2019-01-23T21:48:51</date>
+  <millis>1548276531442</millis>
+  <sequence>256</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Close app successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:48:51</date>
+  <millis>1548276531443</millis>
+  <sequence>257</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeApplication()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:48:51</date>
+  <millis>1548276531443</millis>
+  <sequence>258</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen04_SaveAloneOr_TextAndImageVerification</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:48:51</date>
+  <millis>1548276531443</millis>
+  <sequence>259</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen04_SaveAloneOr_TextAndImageVerification</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:48:51</date>
+  <millis>1548276531446</millis>
+  <sequence>260</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen05_SplashToWelcomeScreenTransitionVerification</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen05_SplashToWelcomeScreenTransitionVerification</property>
+  <property name="description">Verify that Intro images and Text are shown (and shown in correct order).</property>
+  <property name="id">Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen05_SplashToWelcomeScreenTransitionVerification</property>
+  <property name="source">\\Users\\vibhakarsaraswat\\ws-katalon\\androidprojects\\getdreams\\Test Cases\\TCF_LauncherActivity\\TCS_LauncherActivity_Screen05_SplashToWelcomeScreenTransitionVerification.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-01-23T21:48:51</date>
+  <millis>1548276531624</millis>
+  <sequence>262</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : startApplication(\&amp;quot;/Users/vibhakarsaraswat/Documents/devlernings/apks_and_ipas/Android-APKs/com.getdreams_2019-01-14.apk\&amp;quot;, true)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-01-23T21:48:53</date>
+  <millis>1548276533768</millis>
+  <sequence>264</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Appium server started on port 49,356</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:49:19</date>
+  <millis>1548276559980</millis>
+  <sequence>266</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>appiumVersion = 1.8.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="appiumVersion">1.8.1</property>
+</record>
+<record>
+  <date>2019-01-23T21:49:20</date>
+  <millis>1548276560035</millis>
+  <sequence>267</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceId = emulator-5554</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceId">emulator-5554</property>
+</record>
+<record>
+  <date>2019-01-23T21:49:20</date>
+  <millis>1548276560037</millis>
+  <sequence>268</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceName = emulator-5554 (Android SDK built for x86 - Android 9)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceName">emulator-5554 (Android SDK built for x86 - Android 9)</property>
+</record>
+<record>
+  <date>2019-01-23T21:49:20</date>
+  <millis>1548276560039</millis>
+  <sequence>269</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceModel = Android SDK built for x86</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceModel">Android SDK built for x86</property>
+</record>
+<record>
+  <date>2019-01-23T21:49:20</date>
+  <millis>1548276560040</millis>
+  <sequence>270</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceManufacturer = Google</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceManufacturer">Google</property>
+</record>
+<record>
+  <date>2019-01-23T21:49:20</date>
+  <millis>1548276560040</millis>
+  <sequence>271</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2019-01-23T21:49:20</date>
+  <millis>1548276560040</millis>
+  <sequence>272</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceOSVersion = 9</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceOSVersion">9</property>
+</record>
+<record>
+  <date>2019-01-23T21:49:20</date>
+  <millis>1548276560045</millis>
+  <sequence>273</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Started app at: &amp;apos;/Users/vibhakarsaraswat/Documents/devlernings/apks_and_ipas/Android-APKs/com.getdreams_2019-01-14.apk&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:49:20</date>
+  <millis>1548276560045</millis>
+  <sequence>274</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : startApplication(\&amp;quot;/Users/vibhakarsaraswat/Documents/devlernings/apks_and_ipas/Android-APKs/com.getdreams_2019-01-14.apk\&amp;quot;, true)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:49:20</date>
+  <millis>1548276560046</millis>
+  <sequence>275</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(15)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-01-23T21:49:35</date>
+  <millis>1548276575055</millis>
+  <sequence>277</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 15 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:49:35</date>
+  <millis>1548276575055</millis>
+  <sequence>278</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(15)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:49:35</date>
+  <millis>1548276575055</millis>
+  <sequence>279</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.Button0 - NEXT\&amp;quot;), 5)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-01-23T21:49:36</date>
+  <millis>1548276576569</millis>
+  <sequence>283</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.Button0 - NEXT&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:49:36</date>
+  <millis>1548276576570</millis>
+  <sequence>284</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen02_DreamsHelpYou/android.widget.Button0 - NEXT\&amp;quot;), 5)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:49:36</date>
+  <millis>1548276576570</millis>
+  <sequence>285</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.Button0 - NEXT\&amp;quot;), 5)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-01-23T21:49:38</date>
+  <millis>1548276578274</millis>
+  <sequence>289</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.Button0 - NEXT&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:49:38</date>
+  <millis>1548276578274</millis>
+  <sequence>290</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen03_TheAppMake/android.widget.Button0 - NEXT\&amp;quot;), 5)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:49:38</date>
+  <millis>1548276578275</millis>
+  <sequence>291</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.Button0 - NEXT\&amp;quot;), 5)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">27</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-01-23T21:49:42</date>
+  <millis>1548276582314</millis>
+  <sequence>295</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.Button0 - NEXT&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:49:42</date>
+  <millis>1548276582314</millis>
+  <sequence>296</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(findTestObject(\&amp;quot;ORF_LauncherActivity/ORF_LauncherActivity_Screen04_SaveAloneOr/android.widget.Button0 - NEXT\&amp;quot;), 5)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:49:42</date>
+  <millis>1548276582315</millis>
+  <sequence>297</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(10)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-01-23T21:49:52</date>
+  <millis>1548276592316</millis>
+  <sequence>299</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 10 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:49:52</date>
+  <millis>1548276592317</millis>
+  <sequence>300</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(10)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:49:52</date>
+  <millis>1548276592318</millis>
+  <sequence>301</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementExist(findTestObject(\&amp;quot;ORF_WelcomeScreen/android.widget.Button0 - LOGIN\&amp;quot;), 5, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-01-23T21:49:52</date>
+  <millis>1548276592540</millis>
+  <sequence>305</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository/ORF_WelcomeScreen/android.widget.Button0 - LOGIN&amp;apos; is exist</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:49:52</date>
+  <millis>1548276592540</millis>
+  <sequence>306</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementExist(findTestObject(\&amp;quot;ORF_WelcomeScreen/android.widget.Button0 - LOGIN\&amp;quot;), 5, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:49:52</date>
+  <millis>1548276592540</millis>
+  <sequence>307</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementVisible(findTestObject(\&amp;quot;ORF_WelcomeScreen/android.widget.Button1 - BECOME A USER\&amp;quot;), 5, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-01-23T21:49:52</date>
+  <millis>1548276592820</millis>
+  <sequence>311</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository/ORF_WelcomeScreen/android.widget.Button1 - BECOME A USER&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:49:52</date>
+  <millis>1548276592821</millis>
+  <sequence>312</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementVisible(findTestObject(\&amp;quot;ORF_WelcomeScreen/android.widget.Button1 - BECOME A USER\&amp;quot;), 5, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:49:52</date>
+  <millis>1548276592821</millis>
+  <sequence>313</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementText(findTestObject(\&amp;quot;ORF_WelcomeScreen/android.widget.TextView0 - Save money for your dreams.\&amp;quot;), \&amp;quot;Save money for your dreams.\&amp;quot;, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-01-23T21:49:53</date>
+  <millis>1548276593090</millis>
+  <sequence>317</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual text and expected text of test object &amp;apos;Object Repository/ORF_WelcomeScreen/android.widget.TextView0 - Save money for your dreams.&amp;apos; are matched.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:49:53</date>
+  <millis>1548276593090</millis>
+  <sequence>318</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementText(findTestObject(\&amp;quot;ORF_WelcomeScreen/android.widget.TextView0 - Save money for your dreams.\&amp;quot;), \&amp;quot;Save money for your dreams.\&amp;quot;, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:49:53</date>
+  <millis>1548276593091</millis>
+  <sequence>319</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeApplication()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">40</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2019-01-23T21:49:56</date>
+  <millis>1548276596005</millis>
+  <sequence>320</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Close app successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:49:56</date>
+  <millis>1548276596006</millis>
+  <sequence>321</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeApplication()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:49:56</date>
+  <millis>1548276596006</millis>
+  <sequence>322</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen05_SplashToWelcomeScreenTransitionVerification</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:49:56</date>
+  <millis>1548276596006</millis>
+  <sequence>323</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TCF_LauncherActivity/TCS_LauncherActivity_Screen05_SplashToWelcomeScreenTransitionVerification</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-01-23T21:49:56</date>
+  <millis>1548276596015</millis>
+  <sequence>324</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/TST_LauncherActivity</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

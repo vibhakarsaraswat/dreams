@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that Intro images and Text are shown (and shown in correct order).</description>
+   <name>TCS_LauncherActivity_Screen05_SplashToWelcomeScreenTransitionVerification</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e8032e7c-602a-440e-8cc9-d680e33e1aff</testCaseGuid>
+</TestCaseEntity>
